@@ -1,4 +1,6 @@
-package java;
+package com.codewars.java;
+
+import org.apache.log4j.Logger;
 
 /**
  * <pre>
@@ -12,7 +14,10 @@ package java;
  *
  */
 public class DnaStrand {
+    
+    private static Logger logger = Logger.getLogger(DnaStrand.class); 
 
+    
     /**
      * <pre>
      * 보완 DNA(Complementary DNA)
@@ -51,5 +56,10 @@ public class DnaStrand {
         }
 
         return sb.toString();
+    }
+    
+    public static void main (String[] args) {
+        logger.debug("ffff");
+        System.out.println("ddd");
     }
 }

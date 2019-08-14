@@ -1,9 +1,10 @@
-package test;
+package com.codewars.test;
 
 import org.junit.Test;
-import static org.junit.Assert.assertEquals;
 
-import java.DnaStrand;
+import com.codewars.java.DnaStrand;
+
+import static org.junit.Assert.assertEquals;
 
 public class DnaStrandTest {
     @Test
