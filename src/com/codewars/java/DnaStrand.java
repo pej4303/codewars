@@ -15,6 +15,7 @@ import org.apache.log4j.Logger;
  */
 public class DnaStrand {
     
+    @SuppressWarnings("unused")
     private static Logger logger = Logger.getLogger(DnaStrand.class); 
 
     
@@ -56,10 +57,5 @@ public class DnaStrand {
         }
 
         return sb.toString();
-    }
-    
-    public static void main (String[] args) {
-        logger.debug("ffff");
-        System.out.println("ddd");
     }
 }
